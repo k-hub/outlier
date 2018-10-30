@@ -22,13 +22,15 @@
     "axios": "^0.18.0",
     "babel-polyfill": "6.26.0",
     "normalize.css": "^7.0.0",
+    "prop-types": "^15.6.2",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-redux": "^5.0.7",
     "react-hot-loader": "^4.0.0",
+    "react-redux": "^5.0.7",
     "react-router-dom": "^4.2.2",
     "react-router-redux": "^4.0.8",
-    "redux": "^4.0.1"
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3"
   },
   "babel": {
     "presets": [
@@ -79,6 +81,7 @@
   },
   "jest": {
     "verbose": true,
+    "testURL": "http://localhost/",
     "bail": true,
     "collectCoverage": true,
     "coverageDirectory": "coverage",
