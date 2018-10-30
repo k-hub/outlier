@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import ConnectedView from './ConnectedView';
-import {fetchLaunchesIfNeeded} from '../actions/Launches';
+import { fetchLaunchesIfNeeded } from '../actions/Launches';
 import Launch from '../components/Launch';
-import {fetchRocketIfNeeded} from '../actions/Rocket';
+import { fetchRocketIfNeeded } from '../actions/Rocket';
 
 class LaunchesView extends Component {
   componentDidMount() {
